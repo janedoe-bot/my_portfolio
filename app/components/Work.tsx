@@ -4,8 +4,18 @@ import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import Image from "next/image";
 
+const CLOUD = "https://res.cloudinary.com/do9avzucm/image/upload";
+
 function p(folder: string, file: string) {
-  return `/images/${encodeURIComponent(folder)}/${encodeURIComponent(file)}`;
+  const f = folder.trim().replace(/&/g, "and");
+  const name = file.replace(/\.[^.]+$/, "");
+  return `${CLOUD}/portfolio/${encodeURIComponent(f)}/${encodeURIComponent(name)}`;
+}
+
+// folder "18. " has trailing space → mapped to "18"
+function p18(file: string) {
+  const name = file.replace(/\.[^.]+$/, "");
+  return `${CLOUD}/portfolio/18/${encodeURIComponent(name)}`;
 }
 
 const projects = [
@@ -171,9 +181,9 @@ const projects = [
     id: "18", title: "Frameground", tags: ["Branding"],
     desc: "Identity for a photography and moving image studio — a mark built around framing and negative space.",
     images: [
-      p("18. ", "IMG_5376.jpeg"),
-      p("18. ", "IMG_5393.jpeg"),
-      p("18. ", "KakaoTalk_Photo_2020-12-11-13-40-34.jpeg"),
+      p18("IMG_5376.jpeg"),
+      p18("IMG_5393.jpeg"),
+      p18("KakaoTalk_Photo_2020-12-11-13-40-34.jpeg"),
     ],
   },
   {
