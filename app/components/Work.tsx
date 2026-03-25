@@ -44,7 +44,7 @@ const projects = [
     ],
   },
   {
-    id: "03", title: "ttaa", tags: ["Brand Identity", "Label Design", "Textile"],
+    id: "03", title: "ttaa", tags: ["Brand Identity", "Label Design"],
     desc: "Identity and label design for an independent textile brand exploring quiet, tactile aesthetics.",
     images: [
       p("03. ttaa", "43434.png"),
@@ -54,7 +54,7 @@ const projects = [
     ],
   },
   {
-    id: "04", title: "Vase Around", tags: ["Branding", "Print"],
+    id: "04", title: "Vase Around", tags: ["Branding", "Business Card"],
     desc: "Branding for a ceramic studio that celebrates the everyday object — restrained, warm, and considered.",
     images: [
       p("04. Vase Around", "-1--133x.png"),
@@ -72,7 +72,7 @@ const projects = [
     ],
   },
   {
-    id: "06", title: "Eve", tags: ["Graphic Design"],
+    id: "06", title: "Eve", tags: ["Graphic Design", "Type Design"],
     desc: "Visual work examining the mythological figure of Eve — femininity, origin, and the gaze.",
     images: [
       p("06. Eve", "1.png"),
@@ -81,12 +81,12 @@ const projects = [
     ],
   },
   {
-    id: "07", title: "Gwilee", tags: ["Web Design"],
+    id: "07", title: "Gwilee", tags: ["Branding"],
     desc: "Web design for an independent brand — clean layout with careful attention to typography and white space.",
     images: ["Frame 1.png","Frame 2.png","Frame 3.png","Frame 4.png","Frame 5.png","Frame 6.png"].map(f => p("07. Gwilee", f)),
   },
   {
-    id: "08", title: "VART", tags: ["Graphic Design"],
+    id: "08", title: "VART", tags: ["UX Design"],
     desc: "Graphic design for a visual arts platform, balancing editorial clarity with expressive form.",
     images: [
       p("08. VART", "---7 (1).png"),
@@ -96,7 +96,7 @@ const projects = [
     ],
   },
   {
-    id: "09", title: "Wearing", tags: ["Print", "Graphic Design"],
+    id: "09", title: "Wearing", tags: ["Graphic Design", "Poster Design", "Leaflet Design"],
     desc: "Poster and leaflet design for a fashion exhibition exploring the body as a site of expression.",
     images: [
       p("09. Wearing", "poster.png"),
@@ -110,7 +110,7 @@ const projects = [
     images: [p("10. Mapping the City", "mapping the city2.png")],
   },
   {
-    id: "11", title: "Take", tags: ["Graphic Design"],
+    id: "11", title: "Take", tags: ["Branding", "Business Card"],
     desc: "A series of graphic works exploring the act of taking — possession, image-making, and appropriation.",
     images: [
       p("11. Take", "IMG_6431.jpeg"),
@@ -130,7 +130,7 @@ const projects = [
     ],
   },
   {
-    id: "13", title: "prectxe", tags: ["Brand Identity"],
+    id: "13", title: "prectxe", tags: ["Graphic Design", "Print"],
     desc: "Full visual identity for an independent creative practice — mark, system, and application across media.",
     images: ["_.png","_ 복사본.png","__2.png","__3.png","__4.png","__5.png","__6.png","__7.png","__9.png","__10.png","-2019-11-15--1.42.41.png"].map(f => p("13. prectxe", f)),
   },
@@ -168,7 +168,7 @@ const projects = [
     ],
   },
   {
-    id: "17", title: "boundary", tags: ["Exhibition"],
+    id: "17", title: "boundary", tags: ["Exhibition", "Graphic Design"],
     desc: "An installation shown at Jeonju International Film Festival — exploring the boundary between image and space.",
     images: [
       p("17. boundary", "_1.jpg"),
@@ -187,7 +187,7 @@ const projects = [
     ],
   },
   {
-    id: "19", title: "Flow & Bloom", tags: ["Branding", "Print"],
+    id: "19", title: "Flow & Bloom", tags: ["Print", "Graphic Design"],
     desc: "Branding for a floral studio — organic forms, soft color, and the quiet poetry of flowers in print.",
     images: [
       p("19. Flow&Bloom", "DSC01335.jpeg"),
@@ -197,7 +197,7 @@ const projects = [
     ],
   },
   {
-    id: "20", title: "filmographs", tags: ["Type Design"],
+    id: "20", title: "filmographs", tags: ["Type Design", "Package"],
     desc: "Early research and development work for the Filmographs typeface — sketches, spacing, and structure.",
     images: [
       p("20. filmographs", "filmograph3.png"),
@@ -218,7 +218,7 @@ const projects = [
     ],
   },
   {
-    id: "22", title: "innehome", tags: ["Web Design"],
+    id: "22", title: "innehome", tags: ["Branding"],
     desc: "Web design for a home interior brand — minimal interface with a focus on material and atmosphere.",
     images: [
       p("22. innehome", "innehome3.png"),
@@ -238,17 +238,17 @@ const projects = [
     ],
   },
   {
-    id: "24", title: "moonsturck", tags: ["Graphic Design"],
+    id: "24", title: "moonsturck", tags: ["Lettering"],
     desc: "A graphic piece drawn from the state of being moonstruck — enchanted, off-balance, luminous.",
     images: [p("24. moonsturck", "moonsturck-1.png")],
   },
   {
-    id: "25", title: "note of youth", tags: ["Publication"],
+    id: "25", title: "note of youth", tags: ["Graphic Design", "Exhibition"],
     desc: "A publication documenting the voices of young creators — featured in Chosun Ilbo, 2018.",
     images: [p("25. note of youth", "_2.jpeg")],
   },
   {
-    id: "26", title: "Origin of Originality", tags: ["Graphic Design"],
+    id: "26", title: "Origin of Originality", tags: ["Web Design", "Exhibition"],
     desc: "A graphic exploration of originality itself — what it means to make something new from what already exists.",
     images: [
       p("26. Origin of Originality", "-2022-03-11--7.21.17.png"),
@@ -266,7 +266,7 @@ const projects = [
     ],
   },
   {
-    id: "28", title: "Biff Forum", tags: ["Print", "Graphic Design"],
+    id: "28", title: "Biff Forum", tags: ["Print", "Editorial"],
     desc: "Print design for the BIFF Forum program at Busan International Film Festival — editorial and promotional materials.",
     images: Array.from({length: 7}, (_, i) => p("28. Biff Forum", `biff-forum-${i+1}.png`)),
   },
@@ -281,22 +281,22 @@ const projects = [
     images: ["0","2","3","4","5","6","7","8","9","10","11","12"].map(f => p("30. B39 spacebook", `${f}.png`)).concat([p("30. B39 spacebook", "DSC00502_small.jpg")]),
   },
   {
-    id: "31", title: "mimesis of mimesis", tags: ["Graphic Design"],
+    id: "31", title: "mimesis of mimesis", tags: ["Editorial"],
     desc: "A layered graphic work on imitation and repetition — copying the copy, tracing the trace.",
     images: ["_2","_3","_4","_5","_7"].map(f => p("31. mimesis of mimesis", `${f}.png`)),
   },
   {
-    id: "32", title: "graduation", tags: ["Exhibition"],
+    id: "32", title: "graduation", tags: ["Exhibition", "Book Design"],
     desc: "Graduation exhibition — a culminating body of work presented as an installation in the university gallery.",
     images: ["JWCH5884_1181.JPG.jpg","JWCH5885_1181.JPG.jpg","JWCH5886_1250.JPG.jpg","JWCH5888_1181.JPG.jpg","JWCH5891_1181.JPG.jpg","JWCH5892_1181.JPG.jpg","JWCH5895_1181.JPG.jpg","JWCH5897_1181.JPG.jpg","JWCH5898_1181.JPG.jpg"].map(f => p("32. graduation", f)),
   },
   {
-    id: "33", title: "bigriver", tags: ["Graphic Design"],
+    id: "33", title: "bigriver", tags: ["Graphic Design", "Exhibition"],
     desc: "A graphic series inspired by the river as metaphor — flow, sediment, and the passage of time.",
     images: ["_2","_3","_4","_5","_6"].map(f => p("33. bigriver", `${f}.jpeg`)),
   },
   {
-    id: "34", title: "Walus Film", tags: ["Graphic Design"],
+    id: "34", title: "Walus Film", tags: ["Envelope Design"],
     desc: "Visual identity and graphic materials for an independent film production company.",
     images: [
       p("34. Walus Film", "KakaoTalk_Photo_2023-09-12-19-17-59-007.jpeg"),
@@ -304,7 +304,7 @@ const projects = [
     ],
   },
   {
-    id: "35", title: "PILE", tags: ["Graphic Design"],
+    id: "35", title: "PILE", tags: ["Branding"],
     desc: "Graphic work built through accumulation — layers piling into texture, density becoming image.",
     images: [p("35. PILE", "pile1.png"), p("35. PILE", "pile2.png")],
   },
@@ -314,7 +314,7 @@ const projects = [
     images: [p("36. interferences", "02.png"), p("36. interferences", "022.png")],
   },
   {
-    id: "37", title: "Pilm", tags: ["Web Design"],
+    id: "37", title: "Pilm", tags: ["Editorial"],
     desc: "Web design for Pilm, an independent film platform — cinematic interface with a focus on atmosphere.",
     images: [
       p("37. Pilm", "pilm_1.png"),
