@@ -82,12 +82,12 @@ const projects = [
   },
   {
     id: "07", title: "Gwilee", tags: ["Branding"],
-    desc: "Web design for an independent brand — clean layout with careful attention to typography and white space.",
+    desc: "Brand design for an independent brand Gwilee — Modern, minimal lettering with a distinctive treatment of the letter \"g\".",
     images: ["Frame 1.png","Frame 2.png","Frame 3.png","Frame 4.png","Frame 5.png","Frame 6.png"].map(f => p("07. Gwilee", f)),
   },
   {
     id: "08", title: "VART", tags: ["UX Design"],
-    desc: "Graphic design for a visual arts platform, balancing editorial clarity with expressive form.",
+    desc: "UX design for the art dealing platform \"VART\".",
     images: [
       p("08. VART", "---7 (1).png"),
       p("08. VART", "---8.png"),
@@ -97,7 +97,7 @@ const projects = [
   },
   {
     id: "09", title: "Wearing", tags: ["Graphic Design", "Poster Design", "Leaflet Design"],
-    desc: "Poster and leaflet design for a fashion exhibition exploring the body as a site of expression.",
+    desc: "Poster for an art exhibition centered on the adjective \"utterly exhausting.\"",
     images: [
       p("09. Wearing", "poster.png"),
       p("09. Wearing", "leaflet.png"),
@@ -106,12 +106,12 @@ const projects = [
   },
   {
     id: "10", title: "Mapping the City", tags: ["Graphic Design"],
-    desc: "A graphic interpretation of urban space — overlaying personal memory onto the structure of the city.",
+    desc: "Poster design for an exhibition themed \"Mapping the City\".",
     images: [p("10. Mapping the City", "mapping the city2.png")],
   },
   {
     id: "11", title: "Take", tags: ["Branding", "Business Card"],
-    desc: "A series of graphic works exploring the act of taking — possession, image-making, and appropriation.",
+    desc: "Branding for a plant shop.",
     images: [
       p("11. Take", "IMG_6431.jpeg"),
       p("11. Take", "6E508161-F866-40C1-B10B-6EF9E8090E50.jpeg"),
@@ -120,7 +120,7 @@ const projects = [
   },
   {
     id: "12", title: "Time Travel Post Cards", tags: ["Print", "Graphic Design"],
-    desc: "A set of printed postcards designed as objects of time — each card holds a different moment, real or imagined.",
+    desc: "Riso Postcards reinterpreted from archival posters within the Bucheon Art Bunker B39 space.",
     images: [
       p("12. Time Travel Post Cards", "DSC01672.jpeg"),
       p("12. Time Travel Post Cards", "DSC01725.png"),
@@ -131,12 +131,12 @@ const projects = [
   },
   {
     id: "13", title: "prectxe", tags: ["Graphic Design", "Print"],
-    desc: "Full visual identity for an independent creative practice — mark, system, and application across media.",
+    desc: "Visual work for a digital art festival — applied across logo, signage, posters, and promotional materials.",
     images: ["_.png","_ 복사본.png","__2.png","__3.png","__4.png","__5.png","__6.png","__7.png","__9.png","__10.png","-2019-11-15--1.42.41.png"].map(f => p("13. prectxe", f)),
   },
   {
     id: "14", title: "SeaSandSalt", tags: ["Branding"],
-    desc: "Brand identity for a coastal lifestyle label — textures of sea, sand, and salt translated into visual language.",
+    desc: "Branding for a women's wholesale fashion platform in Dongdaemun.",
     images: [
       p("14. SeaSandSalt", "-2023-08-01--3.07.13.png"),
       p("14. SeaSandSalt", "-2023-08-01--3.09.16.png"),
@@ -148,7 +148,7 @@ const projects = [
   },
   {
     id: "15", title: "unfold", tags: ["Graphic Design"],
-    desc: "A graphic project that unfolds in layers — form revealing form, meaning arriving slowly.",
+    desc: "Poster, graphic, and signage design for a digital art exhibition by Ryoichi Kurokawa.",
     images: [
       p("15. unfold", "_1.jpg"),
       p("15. unfold", "_5.jpg"),
@@ -169,7 +169,7 @@ const projects = [
   },
   {
     id: "17", title: "boundary", tags: ["Exhibition", "Graphic Design"],
-    desc: "An installation shown at Jeonju International Film Festival — exploring the boundary between image and space.",
+    desc: "Poster for an independent film \"boundary\" presented at the Jeonju International Film Festival.",
     images: [
       p("17. boundary", "_1.jpg"),
       p("17. boundary", "_3.jpg"),
@@ -179,7 +179,7 @@ const projects = [
   },
   {
     id: "18", title: "Frameground", tags: ["Branding"],
-    desc: "Identity for a photography and moving image studio — a mark built around framing and negative space.",
+    desc: "Branding for a photography studio — Brand Identity and signage design.",
     images: [
       p18("IMG_5376.jpeg"),
       p18("IMG_5393.jpeg"),
@@ -188,7 +188,7 @@ const projects = [
   },
   {
     id: "19", title: "Flow & Bloom", tags: ["Print", "Graphic Design"],
-    desc: "Branding for a floral studio — organic forms, soft color, and the quiet poetry of flowers in print.",
+    desc: "Graphics, poster, and exhibition booklet design for \"Flow & Bloom,\" an exhibition by digital artist Maotic.",
     images: [
       p("19. Flow&Bloom", "DSC01335.jpeg"),
       p("19. Flow&Bloom", "-2019-02-24--11.20.36.png"),
@@ -198,7 +198,7 @@ const projects = [
   },
   {
     id: "20", title: "filmographs", tags: ["Type Design", "Package"],
-    desc: "Early research and development work for the Filmographs typeface — sketches, spacing, and structure.",
+    desc: "Early development of the Filmograph typeface, along with brand identity and matchbox packaging design.",
     images: [
       p("20. filmographs", "filmograph3.png"),
       p("20. filmographs", "-1--2.png"),
@@ -208,7 +208,7 @@ const projects = [
   },
   {
     id: "21", title: "Hammers", tags: ["Graphic Design"],
-    desc: "Graphic work built around the symbolic weight of the hammer — labor, construction, and the poetic tool.",
+    desc: "Graphic design for a group T-shirt for the climbing crew \"Hammers\".",
     images: [
       p("21. Hammers", "-42x.png"),
       p("21. Hammers", "-52x.png"),
@@ -219,7 +219,7 @@ const projects = [
   },
   {
     id: "22", title: "innehome", tags: ["Branding"],
-    desc: "Web design for a home interior brand — minimal interface with a focus on material and atmosphere.",
+    desc: "Branding, business card, poster, and web design for the furniture studio \"Inehome\".",
     images: [
       p("22. innehome", "innehome3.png"),
       p("22. innehome", "innehome4.png"),
@@ -230,7 +230,7 @@ const projects = [
   },
   {
     id: "23", title: "Mimosa Salon", tags: ["Branding"],
-    desc: "Brand identity for an independent hair salon — feminine, botanical, and quietly confident.",
+    desc: "Brand identity for an independent mixing studio",
     images: [
       p("23. Mimosa Salon", "IMG_1445.jpeg"),
       p("23. Mimosa Salon", "KakaoTalk_Photo_2019-02-24-13-53-36.png"),
@@ -239,17 +239,17 @@ const projects = [
   },
   {
     id: "24", title: "moonsturck", tags: ["Lettering"],
-    desc: "A graphic piece drawn from the state of being moonstruck — enchanted, off-balance, luminous.",
+    desc: "Lettering inspired by a vampire couple — seductive, off-balance, and bleeding.",
     images: [p("24. moonsturck", "moonsturck-1.png")],
   },
   {
     id: "25", title: "note of youth", tags: ["Graphic Design", "Exhibition"],
-    desc: "A publication documenting the voices of young creators — featured in Chosun Ilbo, 2018.",
+    desc: "Poster for the song \"Note of Youth,\" presented at the 1st Daegang Poster Festival. featured in Chosun Ilbo, 2018.",
     images: [p("25. note of youth", "_2.jpeg")],
   },
   {
     id: "26", title: "Origin of Originality", tags: ["Web Design", "Exhibition"],
-    desc: "A graphic exploration of originality itself — what it means to make something new from what already exists.",
+    desc: "Website design for an online exhibition exploring origins.",
     images: [
       p("26. Origin of Originality", "-2022-03-11--7.21.17.png"),
       p("26. Origin of Originality", "-2022-03-11--7.21.34.png"),
@@ -259,7 +259,7 @@ const projects = [
   },
   {
     id: "27", title: "outlines", tags: ["Graphic Design"],
-    desc: "A study in outline and contour — form stripped to its essential edge, shape without fill.",
+    desc: "Graphic work for an installation artwork titled \"Tundra\".",
     images: [
       p("27. outlines", "_2.png"),
       p("27. outlines", "-2019-07-13--8.20.37.png"),
@@ -267,12 +267,12 @@ const projects = [
   },
   {
     id: "28", title: "Biff Forum", tags: ["Print", "Editorial"],
-    desc: "Print design for the BIFF Forum program at Busan International Film Festival — editorial and promotional materials.",
+    desc: "Print design for the BIFF Forum program at Busan International Film Festival.",
     images: Array.from({length: 7}, (_, i) => p("28. Biff Forum", `biff-forum-${i+1}.png`)),
   },
   {
     id: "29", title: "alina", tags: ["Branding"],
-    desc: "Brand identity for a small personal label — mark and visual system built around simplicity and care.",
+    desc: "Corporate identity and business card design for the AI startup \"alina.ai\".",
     images: [p("29. alina", "alina111.png"), p("29. alina", "alina112.png")],
   },
   {
@@ -282,12 +282,12 @@ const projects = [
   },
   {
     id: "31", title: "mimesis of mimesis", tags: ["Editorial"],
-    desc: "A layered graphic work on imitation and repetition — copying the copy, tracing the trace.",
+    desc: "Publication design project at Dankook University under Professor Kyungsoo Lee.",
     images: ["_2","_3","_4","_5","_7"].map(f => p("31. mimesis of mimesis", `${f}.png`)),
   },
   {
     id: "32", title: "graduation", tags: ["Exhibition", "Book Design"],
-    desc: "Graduation exhibition — a culminating body of work presented as an installation in the university gallery.",
+    desc: "Graduation exhibition catalog for Dankook University Department of Visual Communication Design.",
     images: ["JWCH5884_1181.JPG.jpg","JWCH5885_1181.JPG.jpg","JWCH5886_1250.JPG.jpg","JWCH5888_1181.JPG.jpg","JWCH5891_1181.JPG.jpg","JWCH5892_1181.JPG.jpg","JWCH5895_1181.JPG.jpg","JWCH5897_1181.JPG.jpg","JWCH5898_1181.JPG.jpg"].map(f => p("32. graduation", f)),
   },
   {
