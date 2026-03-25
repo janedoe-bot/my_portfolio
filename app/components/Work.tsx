@@ -26,7 +26,7 @@ const projects = [
   },
   {
     id: "02", title: "mureung", tags: ["Branding", "Print", "Package"],
-    desc: "Branding and signage design for "Mureung," a wellness studio. for @mureung_poetry",
+    desc: "Branding and signage design for \"Mureung,\" a wellness studio. for @mureung_poetry",
     images: [
       p("02. mureung", "DSC02697.jpg"),
       p("02. mureung", "DSC02702.jpg"),
@@ -45,7 +45,7 @@ const projects = [
   },
   {
     id: "03", title: "ttaa", tags: ["Brand Identity", "Label Design"],
-    desc: "Brand Identity and label design for a textile brand "ttaa" that creates clothing and bags based on patterns.",
+    desc: "Brand Identity and label design for a textile brand \"ttaa\" that creates clothing and bags based on patterns.",
     images: [
       p("03. ttaa", "43434.png"),
       p("03. ttaa", "IMG_79302313dasdas.png"),
@@ -55,7 +55,7 @@ const projects = [
   },
   {
     id: "04", title: "Vase Around", tags: ["Branding", "Business Card"],
-    desc: "Branding for a vintage vase select shop "Vase around" designed to be part of everyday life.",
+    desc: "Branding for a vintage vase select shop \"Vase around\" designed to be part of everyday life.",
     images: [
       p("04. Vase Around", "-1--133x.png"),
       p("04. Vase Around", "-1--153x.png"),
