@@ -21,12 +21,12 @@ function p18(file: string) {
 const projects = [
   {
     id: "01", title: "Filmographs font", tags: ["Type Design", "Typography"],
-    desc: "A display typeface inspired by the visual language of film credits and motion picture typography.",
+    desc: "A display typeface inspired by the visual language of film and motion picture typography. @ktowntypeclass",
     images: ["Web-1.png","Web-2.png","Web-3.png","Web-4.png","Web-5.png","Web-7.png","Web-9.png","Web-10.png"].map(f => p("01. Filmographs font", f)),
   },
   {
     id: "02", title: "mureung", tags: ["Branding", "Print", "Package"],
-    desc: "Brand identity and packaging design for a tea label rooted in natural materials and Korean craft tradition.",
+    desc: "Branding and signage design for "Mureung," a wellness studio. for @mureung_poetry",
     images: [
       p("02. mureung", "DSC02697.jpg"),
       p("02. mureung", "DSC02702.jpg"),
@@ -45,7 +45,7 @@ const projects = [
   },
   {
     id: "03", title: "ttaa", tags: ["Brand Identity", "Label Design"],
-    desc: "Identity and label design for an independent textile brand exploring quiet, tactile aesthetics.",
+    desc: "Brand Identity and label design for a textile brand "ttaa" that creates clothing and bags based on patterns.",
     images: [
       p("03. ttaa", "43434.png"),
       p("03. ttaa", "IMG_79302313dasdas.png"),
@@ -55,7 +55,7 @@ const projects = [
   },
   {
     id: "04", title: "Vase Around", tags: ["Branding", "Business Card"],
-    desc: "Branding for a ceramic studio that celebrates the everyday object — restrained, warm, and considered.",
+    desc: "Branding for a vintage vase select shop "Vase around" designed to be part of everyday life.",
     images: [
       p("04. Vase Around", "-1--133x.png"),
       p("04. Vase Around", "-1--153x.png"),
@@ -73,7 +73,7 @@ const projects = [
   },
   {
     id: "06", title: "Eve", tags: ["Graphic Design", "Type Design"],
-    desc: "Visual work examining the mythological figure of Eve — femininity, origin, and the gaze.",
+    desc: "Visual work exploring the mythological figure of Eve — femininity, the fig, and shame.",
     images: [
       p("06. Eve", "1.png"),
       p("06. Eve", "IMG_40712png.png"),
