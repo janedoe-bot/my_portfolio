@@ -4,12 +4,14 @@ import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import Image from "next/image";
 
+const IMAGES = "https://janedoe-bot.github.io/portfolio-images";
+
 function p(folder: string, file: string) {
-  return `/images/${encodeURIComponent(folder)}/${encodeURIComponent(file)}`;
+  return `${IMAGES}/${encodeURIComponent(folder)}/${encodeURIComponent(file)}`;
 }
 
 function p18(file: string) {
-  return `/images/${encodeURIComponent("18. ")}/${encodeURIComponent(file)}`;
+  return `${IMAGES}/${encodeURIComponent("18. ")}/${encodeURIComponent(file)}`;
 }
 
 const projects = [
