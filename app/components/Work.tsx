@@ -4,18 +4,12 @@ import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import Image from "next/image";
 
-const CLOUD = "https://res.cloudinary.com/do9avzucm/image/upload";
-
 function p(folder: string, file: string) {
-  const f = folder.trim().replace(/&/g, "and");
-  const name = file.replace(/\.[^.]+$/, "");
-  return `${CLOUD}/portfolio/${encodeURIComponent(f)}/${encodeURIComponent(name)}`;
+  return `/images/${encodeURIComponent(folder)}/${encodeURIComponent(file)}`;
 }
 
-// folder "18. " has trailing space → mapped to "18"
 function p18(file: string) {
-  const name = file.replace(/\.[^.]+$/, "");
-  return `${CLOUD}/portfolio/18/${encodeURIComponent(name)}`;
+  return `/images/${encodeURIComponent("18. ")}/${encodeURIComponent(file)}`;
 }
 
 const projects = [
